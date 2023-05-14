@@ -1,0 +1,8 @@
+var zakat = prompt("Input your amount");
+if (zakat < 52000){
+alert("you dont have to pay zakat")
+}
+else if(zakat > 52000){
+alert(zakat*0.025)
+}
+else("enter correct amount")
